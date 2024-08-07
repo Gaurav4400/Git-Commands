@@ -34,4 +34,4 @@ git reset diff.txt/ git restore --staged diff.txt
 git reset / git restore --staged . 
 -- unstages all changes 
 
-(written from remote to check fetch command)
+(remote for fetch)
