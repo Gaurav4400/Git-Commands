@@ -17,4 +17,8 @@ git push https://github.com/Gaurav4400/Git-Commands
 -- pushed committed changes to remote repo
 
 
-txt to check pull command from remote.
+(written from remote)
+(written on local)
+
+git pull https://github.com/Gaurav4400/Git-Commands
+-- pull all files from remote repo and reflect remote into local
