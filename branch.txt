@@ -1,1 +1,3 @@
-this is new branch 
+
+git push origin b1
+--created a new branch b1 in remote and pushed local repo brach b1 to remote b1
