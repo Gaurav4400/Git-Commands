@@ -15,3 +15,6 @@ git commit -m 'add: notes.txt'
 
 git push https://github.com/Gaurav4400/Git-Commands
 -- pushed committed changes to remote repo
+
+
+txt to check pull command from remote.
