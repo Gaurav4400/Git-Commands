@@ -1,0 +1,2 @@
+git clone <remote_url>
+-- When i clone a remote repo (https://github.com/Gaurav4400/Git-Commands) in my local dir 'Github' a new dir get generated in my dir with same name as remote repo.
