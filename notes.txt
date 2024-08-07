@@ -18,14 +18,8 @@ git commit -m 'add: notes.txt'
 git push https://github.com/Gaurav4400/Git-Commands
 -- pushed committed changes to remote repo
 
-
-(written from remote)
-(written on local)
-
 git pull https://github.com/Gaurav4400/Git-Commands
 -- pull all files from remote repo and reflect remote into local
-
-(written to check git diff)
 
 git diff
 -- showed difference between local and staging
