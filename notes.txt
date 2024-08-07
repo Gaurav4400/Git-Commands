@@ -22,3 +22,14 @@ git push https://github.com/Gaurav4400/Git-Commands
 
 git pull https://github.com/Gaurav4400/Git-Commands
 -- pull all files from remote repo and reflect remote into local
+
+(written to check git diff)
+
+git diff
+-- showed difference between local and staging
+
+git reset diff.txt/ git restore --staged diff.txt
+-- unstages all changes for the specific file
+
+git reset / git restore --staged . 
+-- unstages all changes 
