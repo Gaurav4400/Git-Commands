@@ -1,2 +1,17 @@
 git clone <remote_url>
 -- When i clone a remote repo (https://github.com/Gaurav4400/Git-Commands) in my local dir 'Github' a new dir get generated in my dir with same name as remote repo.
+
+touch notes.txt
+-- created a new file notes.txt
+
+git add notes.txt
+-- added notes.txt to staging area
+
+git status
+-- confirmed notes.txt was added to staging area
+
+git commit -m 'add: notes.txt'
+-- committed all modified files with a -m(message) 'add: notes.txt' to local git 
+
+git push https://github.com/Gaurav4400/Git-Commands
+-- pushed committed changes to remote repo
