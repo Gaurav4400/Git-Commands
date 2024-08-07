@@ -1,3 +1,5 @@
+**In Git, origin is the default name given to the remote repository from which you cloned your local repository.
+
 git clone <remote_url>
 -- When i clone a remote repo (https://github.com/Gaurav4400/Git-Commands) in my local dir 'Github' a new dir get generated in my dir with same name as remote repo.
 
@@ -35,3 +37,16 @@ git reset / git restore --staged .
 -- unstages all changes 
 
 (written from remote to check fetch command)
+
+git fetch https://github.com/Gaurav4400/Git-Commands/
+--  git fetch retrieves the metadata without applying changes locally.
+
+git merge https://github.com/Gaurav4400/Git-Commands/
+-- to reflect fetched changes into local use git merge explicitly
+(note: fetch and merge works only once for each commit i.e once a commit is fetched and merged and if we try to fetch and merge again for same commit it will say Already up to date.)
+
+git remote -v ( show the URLs of remote repository under the origin name.)
+----origin  https://github.com/Gaurav4400/Git-Commands (fetch)
+----origin  https://github.com/Gaurav4400/Git-Commands (push)
+
+(local fetch)
