@@ -49,4 +49,4 @@ git remote -v ( show the URLs of remote repository under the origin name.)
 ----origin  https://github.com/Gaurav4400/Git-Commands (fetch)
 ----origin  https://github.com/Gaurav4400/Git-Commands (push)
 
-(local fetch)
+**when trying to fetch and merge from remote where remote and local both have their own committed changes then git will give conflict and auto merge fails , and we need to manually decide which one or both changes to be kept.
